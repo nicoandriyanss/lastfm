@@ -1,0 +1,32 @@
+.input{
+	margin: 0px 0px;
+}
+.thumbnail{
+	width: 200px;
+	height: auto;
+	object-fit: cover;
+}
+.thumbnail:hover{
+	border: 1px solid blue;
+	cursor: pointer;
+}
+#page-numbers {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+#page-numbers > li {
+  margin-right: 0.3em;
+  color: yellow;
+  user-select: none;
+  cursor: pointer;
+  background: gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.loading {
+  margin: 0 auto;
+}

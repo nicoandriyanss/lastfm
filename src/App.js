@@ -21,7 +21,7 @@ class App extends Component {
           <Navbar />
           <Switch>
               <Route exact path={process.env.PUBLIC_URL + '/'} component={Page1} />
-              <Route path={process.env.PUBLIC_URL + '/artist'} component={Page2} />
+              <Route path={process.env.PUBLIC_URL + '/lastfm/artist'} component={Page2} />
               <Route component={Comp404} />
             </Switch>
         </div>

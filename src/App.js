@@ -20,8 +20,8 @@ class App extends Component {
         </div>
           <Navbar />
           <Switch>
-              <Route exact path="/" component={Page1} />
-              <Route path="/artist" component={Page2} />
+              <Route exact path="https://nicoandriyanss.github.io/" component={Page1} />
+              <Route path="https://nicoandriyanss.github.io/artist" component={Page2} />
               <Route component={Comp404} />
             </Switch>
         </div>

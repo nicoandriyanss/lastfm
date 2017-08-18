@@ -49,7 +49,7 @@ class Page1 extends React.Component {
     const renderArtist = currentArtist.map((item, index) => {
       return (
         <div key={index}>
-          <Link to={{pathname: '/artist', state: item.name}}>
+          <Link to={{pathname: process.env.PUBLIC_URL + '/artist', state: item.name}}>
           <img className="thumbnail" src={item.image[2]['#text']}/>
           </Link>
           <p>{item.name}</p>

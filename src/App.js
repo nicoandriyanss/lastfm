@@ -20,8 +20,8 @@ class App extends Component {
         </div>
           <Navbar />
           <Switch>
-              <Route exact path="https://nicoandriyanss.github.io/lastfm/" component={Page1} />
-              <Route path="https://nicoandriyanss.github.io/lastfm/artist" component={Page2} />
+              <Route exact path={process.env.PUBLIC_URL + '/'} component={Page1} />
+              <Route path={process.env.PUBLIC_URL + '/artist'} component={Page2} />
               <Route component={Comp404} />
             </Switch>
         </div>
